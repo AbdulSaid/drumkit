@@ -8,54 +8,145 @@
     <title>JS Drum Kit</title>
   </head>
   <body>
-    <div class="keys">
-      <div data-key="65" class="key">
-        <kbd>A</kbd>
-        <span class="sound">clap</span>
+    <div class="container">
+      <div class="phonetic">Welcome to the Phonetic Alphabet</div>
+      <div class="keys1">
+        <div data-key="65" class="key">
+          <kbd>A</kbd>
+          <span class="sound">Apple</span>
+        </div>
+        <div data-key="66" class="key">
+          <kbd>B</kbd>
+          <span class="sound">Bravo</span>
+        </div>
+        <div data-key="67" class="key">
+          <kbd>C</kbd>
+          <span class="sound">Charlie</span>
+        </div>
+        <div data-key="68" class="key">
+          <kbd>D</kbd>
+          <span class="sound">Delta</span>
+        </div>
+        <div data-key="69" class="key">
+          <kbd>E</kbd>
+          <span class="sound">Echo</span>
+        </div>
+        <div data-key="70" class="key">
+          <kbd>F</kbd>
+          <span class="sound">Foxtrot</span>
+        </div>
+        <div data-key="71" class="key">
+          <kbd>G</kbd>
+          <span class="sound">Golf</span>
+        </div>
+        <div data-key="72" class="key">
+          <kbd>H</kbd>
+          <span class="sound">Hotel</span>
+        </div>
+        <div data-key="73" class="key">
+          <kbd>I</kbd>
+          <span class="sound">India</span>
+        </div>
+        <div data-key="74" class="key">
+          <kbd>J</kbd>
+          <span class="sound">Juliet</span>
+        </div>
+        <div data-key="75" class="key">
+          <kbd>K</kbd>
+          <span class="sound">Kilo</span>
+        </div>
+        <div data-key="76" class="key">
+          <kbd>L</kbd>
+          <span class="sound">Lima</span>
+        </div>
+        <div data-key="77" class="key">
+          <kbd>M</kbd>
+          <span class="sound">Mike</span>
+        </div>
       </div>
-      <div data-key="83" class="key">
-        <kbd>S</kbd>
-        <span class="sound">hihat</span>
-      </div>
-      <div data-key="68" class="key">
-        <kbd>D</kbd>
-        <span class="sound">kick</span>
-      </div>
-      <div data-key="70" class="key">
-        <kbd>F</kbd>
-        <span class="sound">openhat</span>
-      </div>
-      <div data-key="71" class="key">
-        <kbd>G</kbd>
-        <span class="sound">boom</span>
-      </div>
-      <div data-key="72" class="key">
-        <kbd>H</kbd>
-        <span class="sound">ride</span>
-      </div>
-      <div data-key="74" class="key">
-        <kbd>J</kbd>
-        <span class="sound">snare</span>
-      </div>
-      <div data-key="75" class="key">
-        <kbd>K</kbd>
-        <span class="sound">tom</span>
-      </div>
-      <div data-key="76" class="key">
-        <kbd>L</kbd>
-        <span class="sound">tink</span>
+      <div id="pressKey1">You have pressed...</div>
+      <div class="keys2">
+        <div data-key="78" class="key">
+          <kbd>N</kbd>
+          <span class="sound">November</span>
+        </div>
+        <div data-key="79" class="key">
+          <kbd>O</kbd>
+          <span class="sound">Oscar</span>
+        </div>
+        <div data-key="80" class="key">
+          <kbd>P</kbd>
+          <span class="sound">Papa</span>
+        </div>
+        <div data-key="81" class="key">
+          <kbd>Q</kbd>
+          <span class="sound">Quebec</span>
+        </div>
+        <div data-key="82" class="key">
+          <kbd>R</kbd>
+          <span class="sound">Romeo</span>
+        </div>
+        <div data-key="83" class="key">
+          <kbd>S</kbd>
+          <span class="sound">Sierra</span>
+        </div>
+        <div data-key="84" class="key">
+          <kbd>T</kbd>
+          <span class="sound">Tango</span>
+        </div>
+        <div data-key="85" class="key">
+          <kbd>U</kbd>
+          <span class="sound">Uniform</span>
+        </div>
+        <div data-key="86" class="key">
+          <kbd>V</kbd>
+          <span class="sound">Victor</span>
+        </div>
+        <div data-key="87" class="key">
+          <kbd>W</kbd>
+          <span class="sound">Whiskey</span>
+        </div>
+        <div data-key="88" class="key">
+          <kbd>X</kbd>
+          <span class="sound">X-Ray</span>
+        </div>
+        <div data-key="89" class="key">
+          <kbd>Y</kbd>
+          <span class="sound">Yankee</span>
+        </div>
+        <div data-key="90" class="key">
+          <kbd>Z</kbd>
+          <span class="sound">Zulu</span>
+        </div>
       </div>
     </div>
 
-    <audio data-key="65" src="sounds/clap.wav"></audio>
-    <audio data-key="83" src="sounds/hihat.wav"></audio>
-    <audio data-key="68" src="sounds/kick.wav"></audio>
-    <audio data-key="70" src="sounds/openhat.wav"></audio>
-    <audio data-key="71" src="sounds/boom.wav"></audio>
-    <audio data-key="72" src="sounds/ride.wav"></audio>
-    <audio data-key="74" src="sounds/snare.wav"></audio>
-    <audio data-key="75" src="sounds/tom.wav"></audio>
-    <audio data-key="76" src="sounds/tink.wav"></audio>
+    <audio data-key="65" src="sounds/A.wav"></audio>
+    <audio data-key="66" src="sounds/B.wav"></audio>
+    <audio data-key="67" src="sounds/C.wav"></audio>
+    <audio data-key="68" src="sounds/D.wav"></audio>
+    <audio data-key="69" src="sounds/E.wav"></audio>
+    <audio data-key="70" src="sounds/F.wav"></audio>
+    <audio data-key="71" src="sounds/G.wav"></audio>
+    <audio data-key="72" src="sounds/H.wav"></audio>
+    <audio data-key="73" src="sounds/I.wav"></audio>
+    <audio data-key="74" src="sounds/J.wav"></audio>
+    <audio data-key="75" src="sounds/K.wav"></audio>
+    <audio data-key="76" src="sounds/L.wav"></audio>
+    <audio data-key="77" src="sounds/M.wav"></audio>
+    <audio data-key="78" src="sounds/N.wav"></audio>
+    <audio data-key="79" src="sounds/O.wav"></audio>
+    <audio data-key="80" src="sounds/P.wav"></audio>
+    <audio data-key="81" src="sounds/Q.wav"></audio>
+    <audio data-key="82" src="sounds/R.wav"></audio>
+    <audio data-key="83" src="sounds/S.wav"></audio>
+    <audio data-key="84" src="sounds/T.wav"></audio>
+    <audio data-key="85" src="sounds/U.wav"></audio>
+    <audio data-key="86" src="sounds/V.wav"></audio>
+    <audio data-key="87" src="sounds/W.wav"></audio>
+    <audio data-key="88" src="sounds/X.wav"></audio>
+    <audio data-key="89" src="sounds/Y.wav"></audio>
+    <audio data-key="90" src="sounds/Z.wav"></audio>
 
     <script>
       const playSound = (e) => {
@@ -66,6 +157,10 @@
         audio.currentTime = 0;
         audio.play();
         key.classList.add("playing");
+        console.log(e);
+        document.getElementById(
+          "pressKey1"
+        ).innerHTML = `You have pressed "${e.key}" key`;
       };
 
       function removeTransition(e) {
